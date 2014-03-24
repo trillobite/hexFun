@@ -1,0 +1,9 @@
+AC_INIT([funHex], [0.0.1])
+AC_PREREQ([2.68])
+AC_CONFIG_SRCDIR([asciiChar.cpp])
+AC_CONFIG_AUX_DIR([build])
+AM_INIT_AUTOMAKE([1.11 -Wall -Werror])
+AC_CONFIG_FILES([Makefile])
+AC_PROG_CXX
+
+AC_OUTPUT
